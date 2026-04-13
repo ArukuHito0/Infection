@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf73ff0467ebad4b8d9a591c6ac54e0, type: 3}
+  m_Name: Hammer_Village
+  m_EditorClassIdentifier: Assembly-CSharp::UnitStats
+  unitStats:
+    isUnlocked: 0
+    animatorController: {fileID: 9100000, guid: d4abbc394fe250e4081e90099c69fc42, type: 2}
+    unitSprite: {fileID: -8180171696930044909, guid: a465336e46b7ccf45a24b312c97387b6, type: 3}
+    attackEffect: {fileID: 368088567968201606, guid: e0e947f3acec72d4ba441c1782bf3036, type: 3}
+    unitName: "\u920D\u5668\u4F7F\u3044"
+    unitDescription: "\u920D\u5668\u4F7F\u3044\u306F\u81EA\u5206\u304B\u3089\u6700\u3082\u8FD1\u3044\u6575\u3092\u72D9\u3046\u3002\n\u5C04\u7A0B\u5185\u306E<color=red>\u8907\u6570\u306E\u6575</color>\u306B\u653B\u6483\u304C\u30D2\u30C3\u30C8\u3059\u308B\u3002\n<color=red>\u591A\u4EBA\u6570\u306B\u5BFE\u3057\u3066\u306F\u5263\u58EB\u3088\u308A\u706B\u529B\u3092\u767A\u63EE</color>\u3067\u304D\u308B\u3002"
+    jobType: 1
+    targetType: 0
+    statusScaler:
+    - maxHpScaler: 0
+      atkScaler: 0
+      levelUpCost: 700
+    - maxHpScaler: 20
+      atkScaler: 0.4
+      levelUpCost: 1200
+    - maxHpScaler: 30
+      atkScaler: 0.7
+      levelUpCost: 1700
+    - maxHpScaler: 45
+      atkScaler: 1
+      levelUpCost: 2200
+    - maxHpScaler: 60
+      atkScaler: 1.5
+      levelUpCost: 0
+    maxHp: 120
+    attackType: 2
+    hitCnt: 3
+    radius: 0.2
+    atk: 8
+    atkInterbal: 2
+    range: 0.35
+    moveType: 0
+    moveSpeed: 2
+    summonCost: 4
+    bossUnit: 0
+    attackSe: {fileID: 8300000, guid: dab120b7a12444d42b8454c3420e7830, type: 3}

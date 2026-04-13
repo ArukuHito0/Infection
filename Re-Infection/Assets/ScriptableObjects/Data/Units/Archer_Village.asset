@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf73ff0467ebad4b8d9a591c6ac54e0, type: 3}
+  m_Name: Archer_Village
+  m_EditorClassIdentifier: Assembly-CSharp::UnitStats
+  unitStats:
+    isUnlocked: 0
+    animatorController: {fileID: 9100000, guid: fe358768f3d133144a435f4a7a240c4f, type: 2}
+    unitSprite: {fileID: -7132172409892320828, guid: 29a8a87d858d9af47a9a1d4d6de9d938, type: 3}
+    attackEffect: {fileID: 8549444337655066593, guid: afd28ace7832acf44baffb2dec58157e, type: 3}
+    unitName: "\u5F13\u4F7F\u3044"
+    unitDescription: "\u5F13\u4F7F\u3044\u306F\u81EA\u5206\u304B\u3089\u6700\u3082\u8FD1\u3044\u6575\u3092\u9060\u304F\u304B\u3089\u72D9\u3046\u3002\n\u5358\u4F53\u3067\u306E\u653B\u6483\u6027\u80FD\u306F\u63A7\u3048\u76EE\u3060\u304C\u3001\n<color=red>\u8ECD\u968A\u3068\u306A\u308B\u3068\u4F55\u8005\u3082\u5BC4\u305B\u4ED8\u3051\u306A\u3044</color>\u3002"
+    jobType: 3
+    targetType: 0
+    statusScaler:
+    - maxHpScaler: 0
+      atkScaler: 0
+      levelUpCost: 500
+    - maxHpScaler: 10
+      atkScaler: 0.8
+      levelUpCost: 1000
+    - maxHpScaler: 15
+      atkScaler: 1
+      levelUpCost: 1500
+    - maxHpScaler: 20
+      atkScaler: 1.2
+      levelUpCost: 2000
+    - maxHpScaler: 40
+      atkScaler: 1.7
+      levelUpCost: 0
+    maxHp: 30
+    attackType: 0
+    hitCnt: 1
+    radius: 0
+    atk: 10
+    atkInterbal: 3
+    range: 3
+    moveType: 0
+    moveSpeed: 2.5
+    summonCost: 3
+    bossUnit: 0
+    attackSe: {fileID: 8300000, guid: dab120b7a12444d42b8454c3420e7830, type: 3}

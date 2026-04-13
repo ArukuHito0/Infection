@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf73ff0467ebad4b8d9a591c6ac54e0, type: 3}
+  m_Name: Jockey
+  m_EditorClassIdentifier: Assembly-CSharp::UnitStats
+  unitStats:
+    isUnlocked: 0
+    animatorController: {fileID: 9100000, guid: ec837d4df03d5e4489257964b30de201, type: 2}
+    unitSprite: {fileID: -7156167969184391016, guid: 3faf693f7e96ed244b275f2e2fdadfe5, type: 3}
+    attackEffect: {fileID: 0}
+    unitName: "\u9A0E\u99AC\u5175"
+    unitDescription: "\u9A0E\u99AC\u5175\u306F\u81EA\u5206\u304B\u3089\u6700\u3082\u8FD1\u3044\u6575\u3092\u72D9\u3046\u3002\n\u5168\u30E6\u30CB\u30C3\u30C8\u306E\u4E2D\u3067<color=red>\u6700\u3082\u79FB\u52D5\u901F\u5EA6\u304C\u901F\u3044</color>\u3002\n\u524D\u7DDA\u306B<color=red>\u3059\u3050\u306B\u6226\u529B\u3092\u9001\u308A\u305F\u3044</color>\u6642\u306B\u983C\u308A\u306B\u306A\u308B\u3002"
+    jobType: 5
+    targetType: 0
+    statusScaler:
+    - maxHpScaler: 0
+      atkScaler: 0
+      levelUpCost: 500
+    - maxHpScaler: 5
+      atkScaler: 0.4
+      levelUpCost: 1000
+    - maxHpScaler: 10
+      atkScaler: 0.6
+      levelUpCost: 1500
+    - maxHpScaler: 20
+      atkScaler: 0.8
+      levelUpCost: 2000
+    - maxHpScaler: 30
+      atkScaler: 1.4
+      levelUpCost: 0
+    maxHp: 80
+    attackType: 0
+    hitCnt: 1
+    radius: 0
+    atk: 6
+    atkInterbal: 1
+    range: 0.4
+    moveType: 0
+    moveSpeed: 6
+    summonCost: 3
+    bossUnit: 0
+    attackSe: {fileID: 8300000, guid: dab120b7a12444d42b8454c3420e7830, type: 3}
